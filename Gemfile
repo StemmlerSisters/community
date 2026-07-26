@@ -6,5 +6,5 @@ gem "activesupport", "~> 7.0"
 gem "faraday", "~> 2.0"
 
 group :test, :development do
-  gem "rubocop-github"
+  gem "rubocop-github", ">= 0.23.0"
 end
